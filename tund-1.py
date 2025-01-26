@@ -64,7 +64,7 @@ b=2
 c=15
 print("Периметр треугольника - ",a+b+c,"см!")
 
-#ülesanne 9
+#ülesanne 10
 a=12,90
 b=randint(1,10)
 price=a/b
