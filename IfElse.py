@@ -22,6 +22,8 @@ from random import *
 #else:
     #print("Negatiivne")
 
+
+#1
 nimi=input("Как тебя зовут? - ")
 if nimi.isupper() and nimi.lower() == "juku":
     print("Мы идем в кино!")
@@ -43,3 +45,11 @@ if nimi.isupper() and nimi.lower() == "juku":
             
 else:
     print("Мы не идем в кино")
+
+#2
+nimi1=input("Введите имя первого человека")
+nimi2=input("Введите имя второго человека")
+if nimi1 == "martin" or "illia" and nimi2 == "martin" or "illia":
+    print("Вы соседи!")
+else:
+    print("Вы не соседи!")
