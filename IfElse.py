@@ -136,7 +136,7 @@ from random import *
 # except ValueError:
 #     print("Viga! Sa oled kas liiga lühike või liiga pikk")
 
-# Üllesane 7
+# Ülesanne 7
 
 # height = float(input("Enter your height in cm: "))
 # gender = input("Enter your gender (male/female): ").lower()
@@ -158,7 +158,8 @@ from random import *
 # else:
 #     print("Invalid gender input.")
 
-# Sisestame iga toote hinna ja koguse
+# Ülesanne 8
+
 # milk_price = float(input("Sisestage piima hind (EUR): "))
 # bread_price = float(input("Sisestage leiva hind (EUR): "))
 # bun_price = float(input("Sisestage kukli hind (EUR): "))
@@ -217,7 +218,7 @@ from random import *
 #     print("See ei ole juubel.")
 
 
-# Ulesanne 12
+# Ülesanne 12
 
 # price = float(input("Введите цену товара: "))
 
@@ -231,7 +232,7 @@ from random import *
 
 # print(f"Окончательная цена товара: {final_price:.2f} евро")
 
-#Ulesanne 13
+# Ülesanne 13
 
 # gender = input("Enter the candidate's gender (male/female): ").lower()
 
@@ -247,7 +248,7 @@ from random import *
 #     except ValueError:
 #         print("Error: age must be a number.")
 
-#Ulesanne 14
+# Ülesanne 14
 
 # people = int(input("Enter the number of people: "))
 # bus_capacity = int(input("Enter the bus capacity: "))
