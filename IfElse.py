@@ -49,7 +49,22 @@ else:
 #2
 nimi1=input("Введите имя первого человека")
 nimi2=input("Введите имя второго человека")
-if nimi1 == "martin" or "illia" and nimi2 == "martin" or "illia":
+if nimi1 == "martin" and "illia" or nimi2 == "martin" and "illia":
     print("Вы соседи!")
 else:
     print("Вы не соседи!")
+
+#6
+a=int(input("Какой у вас рост?"))
+try:
+        if a<150 or a>220:
+            print("! ! !")
+        elif a>=190:
+            print("Вы высокий!")
+        elif a>=170:
+            print("Вы средний!")
+        else:
+            print("Вы низкий!")
+
+except ValueError:
+    print("Ошибка! Вы или слишком низкий или слишком высокий")
